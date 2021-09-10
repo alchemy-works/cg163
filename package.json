@@ -1,0 +1,31 @@
+{
+  "name": "cg163",
+  "version": "1.0.0",
+  "description": "cg163",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alchemy-works/cg163.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alchemy-works/cg163/issues"
+  },
+  "homepage": "https://github.com/alchemy-works/cg163#readme",
+  "devDependencies": {
+    "electron": "^14.0.0",
+    "electron-builder": "^22.11.7"
+  },
+  "dependencies": {
+  },
+  "build": {
+    "productName": "云游戏",
+    "appId": "org.jianzhao.cg163"
+  }
+}
